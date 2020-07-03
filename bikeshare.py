@@ -3,7 +3,7 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
+CITY_DATA = { 'chile': 'chile.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
@@ -17,12 +17,12 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chile, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
-    city = input("Choice one of three cities: chicago, new york city or washington ")
+    city = input("Choice one of three cities: chile, new york city or washington ")
     city = city.lower()
-    while city != 'chicago' and city != 'new york city' and city != 'washington':
-        city = input("Choice a correct city: chicago, new york city or washington ")
+    while city != 'chile' and city != 'new york city' and city != 'washington':
+        city = input("Choice a correct city: chile, new york city or washington ")
         city = city.lower()
 
     # get user input for month (all, january, february, ... , june)
@@ -197,15 +197,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        
-        more_data = input('\nWould you like to view more data? Choice yes or no.\n')
-        more_data=more_data.lower()
-        a = int(0)
-        while more_data=='yes':            
-            print (df[a:a+5])
-            more_data = input('\nWould you like to view more data? Choice yes or no.\n')
-            more_data=more_data.lower()
-            a = a + 5 
+
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
