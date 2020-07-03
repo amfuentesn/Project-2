@@ -1,11 +1,11 @@
 ### 02 june 2020
-Include the date you created this project and README file.
+02 june 2020
 
-### Project number two
-Replace the Project Title
+### Project number 3 - git
+Project number 3 - git
 
 ### project about git 
-Describe what your project is about and what it does
+project about git and commands to modify local repo and remote repo with github
 
 ### text and py
 Include the files used
