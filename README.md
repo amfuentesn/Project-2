@@ -1,15 +1,24 @@
-### 02 june 2020
-02 june 2020
+### Date create
+02/07/2020
 
-### Project number 3 - git
-Project number 3 - git
+### Project title
+Explore US Bikeshare Data
 
-### project about git 
-project about git and commands to modify local repo and remote repo with github
+### Description
+Use Python to understand US Bikeshare Data. Calculated statistics and built an interactive environment where a user chooses the data and filters for a datasets to analyze
 
-### text and py
-Include the files used
+### Files used
+1. chicago.csv
+2. new_york_city.csv
+3. washington.csv
 
-### Credits to udacity and achs
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### Credits
+GitHub
+Git Branching - Basic Branching and Merging
+Lam's my-travel-plans-project
+NumPy User Guide
 
+### Softwares used
+I used Python 3, NumPy, and pandas installed using Anaconda
+Notepad++ text editor
+A terminal application (Git Bash)
